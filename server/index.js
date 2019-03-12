@@ -27,17 +27,34 @@ app.post('/upload', (req, res) => {
 	console.log(req.body.youtube);
 	db('links').insert({youtube: req.body.youtube}).then((err,res) => {
 	})
-	db.select('youtube').table('links').then((user)=>{ res.json(user)
+	db.select('youtube').table('links').then((user)=>{ 
+		return res.json(user);
 
 	})
 })
 
+app.post('/load', (req, res) => {
+	
+	db.select('youtube').table('links').then((user)=>{ 
+		return res.json(user);
+
+	})
+})
+
+
 app.post('/delete', (req,res) => {
 	console.log('deleting...')
 	console.log(req.body.link)
-	db('links').where('youtube',req.body.link).del().then((err,res)=>{
+	db('links').where('youtube',req.body.link.youtube).del().then((err,res)=>{
 		console.log(res);
+		console.log(err);
+		
 	})
+	.then(
+		db.select('youtube').table('links').then((user)=>{ 
+			return res.json(user);
+			})
+		)
 })
 
 io.on('connection', function(socket){

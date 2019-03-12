@@ -1,0 +1,931 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setState"
+			],
+			[
+				"onDrag",
+				"onDragEnd"
+			],
+			[
+				"ond",
+				"onDragOver"
+			],
+			[
+				"dr",
+				"draggedItem"
+			],
+			[
+				"dra",
+				"draggedOverItem"
+			],
+			[
+				"da",
+				"dataTransfer"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"a",
+				"account"
+			],
+			[
+				"OP",
+				"open_"
+			],
+			[
+				"B",
+				"BotStrategy"
+			],
+			[
+				"bu",
+				"buy_amount"
+			],
+			[
+				"vi",
+				"videoComp"
+			],
+			[
+				"video",
+				"videoNames"
+			],
+			[
+				"vid",
+				"videoNames"
+			],
+			[
+				"pis",
+				"position\tproperty"
+			],
+			[
+				"onTo",
+				"onTogglePlay"
+			],
+			[
+				"OBS",
+				"OBS_Why"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"Er",
+				"ErrorNotFound"
+			],
+			[
+				"R",
+				"Route"
+			],
+			[
+				"bea",
+				"bearerToken"
+			],
+			[
+				"bear",
+				"bearerHeader"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"fai",
+				"failureRedirect"
+			],
+			[
+				"ref",
+				"RefreshToken"
+			],
+			[
+				"Re",
+				"RefreshToken"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"upda",
+				"updatedat"
+			],
+			[
+				"ver",
+				"verifieduser"
+			],
+			[
+				"reset",
+				"resetpasswordexpires"
+			],
+			[
+				"email",
+				"emailtoken"
+			],
+			[
+				"sign",
+				"signup"
+			],
+			[
+				"pass",
+				"passwordMatch"
+			],
+			[
+				"pa",
+				"passwordMatch"
+			],
+			[
+				"on",
+				"onSubmitSignIn"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"err",
+				"errors"
+			],
+			[
+				"sess",
+				"sessionStore"
+			],
+			[
+				"cook",
+				"cookieParser"
+			],
+			[
+				"S",
+				"Sign_up"
+			],
+			[
+				"chec",
+				"checkAuth"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"is",
+				"isValid"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tcolor"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"Nav",
+				"NavButton"
+			],
+			[
+				"sid",
+				"sideDrawer"
+			],
+			[
+				"si",
+				"sideDrawerOpen"
+			],
+			[
+				"b",
+				"bottom\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"bo",
+				"box-shadow\tproperty"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"O",
+				"OnRouteChange"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"Rout",
+				"Route"
+			],
+			[
+				"ro",
+				"Router"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"backg",
+				"background-attachment\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"U",
+				"url()\tbackground-image"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"lef",
+				"margin-left"
+			],
+			[
+				"right",
+				"margin-right"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"number",
+				"number_of_players"
+			],
+			[
+				"red",
+				"redcell"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"te",
+				"text_col"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"t",
+				"txt"
+			],
+			[
+				"ma",
+				"mailTo"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"sc",
+				"scaleX()"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/src/components/home/home.js",
+			"settings":
+			{
+				"buffer_size": 6620,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/azour/Desktop/react/Youtube Project",
+		"/C/Users/azour/Desktop/react/Youtube Project/client",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components/home",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components/VideoQueue"
+	],
+	"file_history":
+	[
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components/VideoQueue/VideoQueue.css",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components/VideoQueue/VideoQueue.js",
+		"/C/Users/azour/Desktop/react/Youtube Project/Youtube_Share.sublime-project",
+		"/C/Users/azour/Desktop/Bot/crypto_bot/tester_history.py",
+		"/C/Users/azour/Desktop/Bot/crypto_bot/account.py",
+		"/C/Users/azour/Desktop/Bot/crypto_bot/botstrat.py",
+		"/C/Users/azour/Desktop/Bot/crypto_bot/bot.py",
+		"/C/Users/azour/Desktop/Bot/crypto_bot/graphing.py",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components/home/home.js",
+		"/C/Users/azour/Desktop/react/Youtube Project/server/index.js",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/src/components/home/home.css",
+		"/C/Users/azour/Desktop/react/Youtube Project/package-lock.json",
+		"/C/Users/azour/Desktop/react/Youtube Project/package.json",
+		"/C/Users/azour/Desktop/react/Youtube Project/client/package-lock.json",
+		"/C/Users/azour/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/azour/Desktop/Youtube/youtube colors",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/OBS/Sidedrawer_OBS.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/ErrorNotFound/ErrorNotFound.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/TabNav/TabNav.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Home.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/PasswordReset/PassReset.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/ErrorNotFound/ErrorNotFound.css",
+		"/C/Users/azour/Desktop/react/twitch/client/src/App.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/OBS/OBS.css",
+		"/C/Users/azour/Desktop/react/twitch/server.js",
+		"/C/Users/azour/Desktop/react/twitch/server/email_delivery.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/Header/Header.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/Login/Login.js",
+		"/C/Users/azour/Desktop/react/twitch/client/src/Main/Register_Form/Register_form.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/TabNav/TabNav.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/TabNav/TabNav.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/CardNav/CardNav.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/OBS/Sidedrawer_OBS.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/OBS/Backdrop.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/NavButton/NavButton.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/NavButton/NavButton.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/OBS/OBS.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Home.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/OBS/OBS.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Home.css",
+		"/C/Users/azour/Desktop/react/twitch/src/App.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/NavButton",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/OBS/Backdrop.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/OBS/Backdrop",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Alerts/Alerts.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Design/Design.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Equip/Equip.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Streamer/Streamer.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Tips/Tips.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Streamer.js",
+		"/C/Users/azour/Desktop/react/twitch/src/index.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/CardNav/CardNav.css",
+		"/C/Users/azour/Desktop/react/twitch/src/App.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Header/Header.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Header/streamerPurple.png",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Header/Header.css",
+		"/C/Users/azour/AppData/Roaming/Sublime Text 3/Packages/User/react.sublime-snippet",
+		"/C/Users/azour/Desktop/react/twitch/node_modules/clean-css/lib/reader/rewrite-url.js",
+		"/C/Users/azour/Desktop/react/cheap_flights/src/index.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/NavigationCards.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Cards.css",
+		"/C/Users/azour/Desktop/react/twitch/public/index.html",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Header.js",
+		"/C/Users/azour/Desktop/react/twitch/src/Main/Header.css",
+		"/C/Users/azour/Desktop/react/twitch/src/Main",
+		"/C/Users/azour/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/azour/Documents/GitHub/fazzbeast.github.io/index.html",
+		"/C/Users/azour/Desktop/wed course/bootstrap/style.css",
+		"/C/Users/azour/Desktop/wed course/image gallery/index.html",
+		"/C/Users/azour/Desktop/wed course/image gallery/style.css",
+		"/C/Users/azour/Desktop/wed course/landing_page/style.css",
+		"/C/Users/azour/Desktop/wed course/landing_page/index.html",
+		"/C/Users/azour/Desktop/wed course/bootstrap/index.html",
+		"/E/xmapp/htdocs/My_website/index.css",
+		"/E/xmapp/htdocs/My_website/prep.html",
+		"/E/xmapp/htdocs/My_website/display_data.php",
+		"/E/xmapp/htdocs/My_website/forum.html",
+		"/E/xmapp/htdocs/My_website/forum.php",
+		"/E/xmapp/htdocs/My_website/contactform.php",
+		"/E/xmapp/htdocs/My_website/database_connect_forum.php",
+		"/E/xmapp/htdocs/My_website/mailsent.html",
+		"/C/Users/azour/Downloads/basics-components/src/app/server/server.component.ts",
+		"/C/Users/azour/Downloads/basics-components/src/app/server/server.component.html",
+		"/E/xmapp/htdocs/My_website/feedback.html",
+		"/E/xmapp/htdocs/My_website/play.html",
+		"/E/xmapp/htdocs/My_website/save_mac.html",
+		"/E/xmapp/htdocs/My_website/save_pc.html",
+		"/E/xmapp/htdocs/My_website/Building.html",
+		"/E/xmapp/htdocs/My_website/index.html",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/tabletopmtg.com.conf",
+		"/E/xmapp/phpMyAdmin/config.inc.php",
+		"/E/xmapp/mysql/bin/my.ini",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/mail.log",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/www-data",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/lastlog",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/mail.err",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/root",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/main.cf",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/hosts.debian.tmpl",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/sendmail.mc",
+		"/C/Users/azour/AppData/Local/Temp/fz3temp-2/sendmail.conf",
+		"/E/xmapp/htdocs/My_website/save.html",
+		"/C/Users/azour/Dropbox/Website/index.html",
+		"/C/Users/azour/Dropbox/Website/index.css",
+		"/E/xmapp/htdocs/index.php",
+		"/C/Users/azour/Downloads/lab4Pre-Logging.c"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"str(",
+			"ETH",
+			"gdax"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ETC",
+			"coinbasepro"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/src/components/home/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5039,
+								5039
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										6618,
+										6619
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5038,
+										5039
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5032,
+										5033
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Youtube_Share.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,7 +1,10 @@
-import React from 'react';
+
 import ReactPlayer from 'react-player';
 import './VideoQueue.css';
-const VideoQueue = ( {videoNames, changeVideo, deleteVideo} ) => {
+
+import React from 'react';
+
+const VideoQueue = ( {videoNames, changeVideo, deleteVideo, dragStart, dragOver, dragEnd} ) => {
 	const state = {
 		playing: 0,
 		width: '168 px',
@@ -9,18 +12,22 @@ const VideoQueue = ( {videoNames, changeVideo, deleteVideo} ) => {
 		controls: false
 
 	}
-	const videoComp = (videoNames || []).map((user, i) => {
+
+	const videos = videoNames;
+	const videoComp = (videos || []).map((user, i) => {
 		return (
-		<div className = 'playerContainer'  >
-			<ReactPlayer 
-		      	url = {videoNames[i]}
-		      	width = {state.width}
-		      	height= {state.height}
-		      	playing = {state.playing}
-		      	controls = {state.controls}
-		      	onClick={changeVideo}
-		      	/>
-		      	<button onClick = {()=> {deleteVideo(videoNames[i])}}>Delete</button>
+		<div className = 'playerContainer' onDragOver = {() => dragOver(i)} >
+				<div className="drag" onDragStart = {(e) => dragStart(e,i) } onDragEnd = {dragEnd} draggable >
+					<ReactPlayer 
+				      	url = {JSON.stringify(videos[i].youtube)}
+				      	width = {state.width}
+				      	height= {state.height}
+				      	playing = {state.playing}
+				      	controls = {state.controls}
+				      	onClick={changeVideo}
+				      	/>
+				    <button onClick = {()=> {deleteVideo(videoNames[i])}}>Delete</button>
+				</div>
 		</div>)
 	})	
 

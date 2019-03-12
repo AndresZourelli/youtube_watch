@@ -1,4 +1,6 @@
 .main_container {
+	position: relative;
+	z-index: 1000;
 	margin: auto;
 	width: 1280px !important;
 	height: 720px !important;

@@ -12,6 +12,7 @@ export default class Home extends Component {
 		super(props);
 		
 		this.state = { 
+			controls: false,
 			bar:0, 
 			width: 0, 
 			height: 0, 
@@ -26,11 +27,10 @@ export default class Home extends Component {
 			played: 0,
 			clock: 0,
 			videoURL: "",
-			videoNames:["https://www.youtube.com/watch?v=DvnSRj8xQBI",
-			'https://www.youtube.com/watch?v=0uV6GE3bEIQ',
-			'https://www.youtube.com/watch?v=06xqSpkaQks&t=1114s',
-			'https://www.youtube.com/watch?v=_yxs4IS9HXU']
+			videoNames:[],
+			queue: []
 			};
+		
 
 			socket.on('recieve', (payload) => {
 				console.log("payload delivered",payload);
@@ -53,7 +53,7 @@ export default class Home extends Component {
 	}
 
 	componentDidMount(){
-		
+		this.onLoad()
 		this.updateWindowDimensions();
 		window.addEventListener('resize', this.updateWindowDimensions);
 		}
@@ -146,9 +146,9 @@ export default class Home extends Component {
 			body: JSON.stringify({
 				youtube: link
 
-		})}).then(function(res){
-			console.log(res)
-			console.log("Uploaded!")
+		})}).then( response => response.json()).then(data => {
+			this.setState({videoNames: data})
+			console.log(this.state.videoNames)
 		})
 	}
 
@@ -163,43 +163,96 @@ export default class Home extends Component {
 			body: JSON.stringify({
 				link: video
 
-		})}).then(function(err,res){
-			if(res){
-				console.log(res)
-				console.log("Deleted!")
-			}else{
-				console.log(err)
-			}
+		})}).then( response => response.json()).then(data => {
+			this.setState({videoNames: JSON.stringify({data})})
+			console.log(this.state.videoNames)
 		})
 	}
+
+	onToggleStart = () => {
+		this.setState({playing: 1});
+		
+	}
+
+	onTogglePause = () => {
+		this.setState({playing: 0});
+		
+	}
+
+	onLoad = () => {
+		fetch("http://localhost:8000/load", {
+			method: 'post',
+			headers: {'Content-Type': 'application/json'}
+			}).then( response => response.json()).then(data => {
+			this.setState({videoNames: data, queue: data.slice(1)})
+		})
+	}
+	
+	onDragStart = (event, index) => {
+		this.draggedItem = this.state.queue[index];
+		event.dataTransfer.effectAllowed = "move";
+		event.dataTransfer.setData("text/html", event.target.parentNode);
+		event.dataTransfer.setDragImage(event.target.parentNode, 20, 20);
+	}
+
+	onDragOver = (index) => {
+		console.log(index)
+		const draggedOverItem = this.state.queue[index];
+
+		if(this.draggedItem === draggedOverItem){
+			return;
+		}
+
+		let items = this.state.videoNames.filter(item => item !== this.draggedItem);
+
+		items.splice(index, 0, this.draggedItem);
+
+		this.setState({queue: items})
+	}
+
+	onDragEnd = () => {
+		this.draggedIdx = null;
+		var oldList = this.state.queue;
+		var first = this.state.videoNames[0];
+		var newList = oldList.unshift(first)
+		this.setState({})
+	}
 	render() {
+
 		const opts = {
 	      height: "auto", //set the video to a 16:9 ratio based on window size
 	      width: "100%"
 	    };
 
+	    const first = this.state.videoNames.length > 0 ? this.state.videoNames[0].youtube : this.state.videoNames;
+
 	    return (
 	      <div>
 		      <h3>React Player</h3>
 			  <input type="text"  onKeyPress={this.handleKeyPress}/>
-			  <div className = 'main_container'>
+			  <div className = 'main_container' onClick={this.onTogglePlay}>
 			      <ReactPlayer className='main_container'
+
+			      	controls = {this.state.controls}
 			      	ref = {this.ref}
-			      	url = 'https://www.youtube.com/watch?v=UOxkGD8qRB4' 
+			      	url = {first}
 			      	width = {opts.width} 
 			      	
 			      	playing = {this.state.playing}
 			      	onProgress = {this.onProgress}
 			      	onDuration = {this.onDuration}
 			      	onSeek = { e => console.log('onSeek',e),50}
-
+					
+					onPause = {this.onTogglePause}
+					onPlay = {this.onToggleStart}
 			      	/>
 			  </div>
+			  <h1></h1>
 		      <h1>{this.state.isseeking ? this.state.clock : this.state.percentage}</h1>
 		      <PlayerControls change = {this.onSeekChange} duration={this.state.duration} seek={ this.state.seek } _onMouseDown = {this.onSeekSearch} _onMouseUp = {this.onSeekDone} /> 
-		      <button onClick = {this.onTogglePlay} >Pause/Play</button>
+		      <button onClick = {this.onTogglePlay}>Pause/Play</button>
 		      <button onClick = {this.onToggleNext}> Next Video</button>
-		      <VideoQueue deleteVideo = {this.onDelete} changeVideo = {this.nextVideo} videoNames = {this.state.videoNames} />
+		      <VideoQueue {...this.props} dragEnd = {this.onDragEnd} dragOver = {this.onDragOver} dragStart={this.onDragStart} deleteVideo = {this.onDelete} changeVideo = {this.nextVideo} videoNames = {this.state.queue} />
 	      </div>
 	    );
 	  }

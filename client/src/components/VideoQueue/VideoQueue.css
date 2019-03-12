@@ -5,3 +5,12 @@
 	width: 168px;
 	height: auto;
 }
+
+.drag {
+	cursor: move;
+	border: 2px black;
+}
+
+.drag a {
+	color: red
+}
