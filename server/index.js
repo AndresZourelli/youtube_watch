@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const knex = require('knex');
 const server = app.listen(8000);
-
+require('dotenv').load();
 const io = require('socket.io').listen(server);
 const cors = require('cors');
 io.origins('*:*');
@@ -12,16 +12,16 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 const db = knex({
-  client: 'pg',
-  connection: {
-  user: "ptgramgfdpdlfs",
-  host: 'ec2-54-235-178-189.compute-1.amazonaws.com',
-  database: "db5s4t7l89tbf6",
-  password: "7c601c7f3316b1b985e19f5133f8bcfc3539fab951b200f14445f976ae453eaf",
-  port: "5432",
-  ssl: true,
-debug: true},
-});
+	client: 'pg',
+	connection: {
+	user: process.env.DB_User,
+	host: process.env.DB_host,
+	database: process.env.DB,
+	password: process.env.DB_password,
+	port: process.env.DB_Port,
+	ssl: true,
+  debug: true},
+  });
 
 app.post('/upload', (req, res) => {
 	console.log(req.body.youtube);
